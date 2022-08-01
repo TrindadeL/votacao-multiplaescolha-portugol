@@ -1,0 +1,47 @@
+voto : literal
+inicio
+
+Escreval("Digite seu voto")
+leia(voto)
+
+se voto = "20" entao
+  Escreval ("Você votou em Lucas Trindade")
+senao
+se voto = "30" entao
+  Escreval ("Você votou em Homem Aranha")
+senao
+se voto = "40" entao
+  Escreval ("Você votou no Thor")
+senao
+  Escreval ("Voto nulo.")
+fimse
+fimse
+fimse
+
+fimalgoritmo
+
+
+OU
+
+voto : literal
+inicio
+
+Escreval("Digite seu voto")
+leia(voto
+
+Escolha voto
+caso "20"
+  Escreval ("Você votou em Lucas Trindade")
+caso "30"
+  Escreval ("Você votou em Homem Aranha")
+caso "40"
+  Escreval ("Você votou no Thor")
+outrocaso
+  Escreval ("Voto nulo."
+fimse
+fimse
+fimse
+
+fimalgoritmo
+
+  
